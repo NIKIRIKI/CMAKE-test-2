@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "src/LibStat/include/stats.h"
-#include "src/LibMath/include/math.h"
+#include "stats.h"
+#include "math.h"
 
 using std::cout, std::endl, std::vector;
 

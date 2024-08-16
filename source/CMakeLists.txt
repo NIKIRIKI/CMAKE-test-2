@@ -20,4 +20,4 @@ target_link_libraries(libstat PRIVATE libmath)
 
 add_executable(rooster main.cpp)
 target_include_directories(rooster PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_link_libraries(rooster PUBLIC libstat)
+target_link_libraries(rooster PUBLIC libstat libmath)

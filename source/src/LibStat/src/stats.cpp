@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "../include/stats.h"
-#include "../../LibMath/include/math.h"
+#include "stats.h"
+#include "math.h"
 
 double mean(std::vector<double> &arr, const int count)
 {
